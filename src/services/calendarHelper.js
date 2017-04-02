@@ -301,7 +301,8 @@ angular
                 end: event.endsAt
               },
               startOfWeek: moment(viewDate).startOf('week').toDate()
-            })
+            }),
+            height: dayEvent.height
           };
         })
       }];
