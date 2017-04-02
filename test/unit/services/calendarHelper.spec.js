@@ -640,7 +640,8 @@ describe('calendarHelper', function() {
             endsAt: new Date('October 21, 2015 11:00:00')
           },
           offset: 1,
-          top: 660
+          top: 660,
+          height: 779
         },
         {
           event: {
@@ -649,6 +650,7 @@ describe('calendarHelper', function() {
           },
           offset: 2,
           top: 660,
+          height: 779
         },
         {
           event: {
@@ -657,6 +659,7 @@ describe('calendarHelper', function() {
           },
           offset: 2,
           top: 660,
+          height: 60
         }
       ];
       expect(weekViewWithTimes.days.length).to.equal(7);
